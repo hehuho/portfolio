@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Eric DANGLET</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/v4-shims.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/learning.png">
+</head>
+<!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fas fa-cog fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Eric <span> DANGLET</span></h1>
+            <p class="animated fadeInRightBig">Bienvenue dans mon portfolio</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Commencer</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/2.png)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Développpeur <span>Fullstack</span></h1>
+            <p class="animated fadeInRightBig">Les langages ne sont pas une barrière</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Commencer</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Esprit <span>d'équipe</span></h1>
+            <p class="animated fadeInRightBig">Entraide et bonne humeur</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Commencer</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#team"><i class="fa fa-angle-down"></i></a>
+
+    </div>
+    <!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="#home"> <i class="fas fa-home fa-lg"></i></a></li>
+            <li class="scroll"><a href="#team">Portrait</a></li>
+            <li class="scroll"><a href="#about-us">Skills & Moi</a></li>
+            <li class="scroll"><a href="#services">API</a></li>
+            <li class="scroll"><a href="#portfolio">Projet</a></li>
+            <li class="scroll"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
+
+
+
+  <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms"
+          data-wow-delay="300ms">
+          <h2>Portrait</h2>
+          <p>Moi et mes passe-temps</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/veille.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Veille</h3>
+                <h4>S'informer sur les technologies de demain</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/portrait.png" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Eric DANGLET</h3>
+                <h4>Développeur Fullstack</h4>
+                <p>Retrouvez moi sur LinkedIn</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/code.png" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Coder</h3>
+                <h4>Un vrai passe temps</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#team-->
+
+
+
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Skills & Moi</h2>
+            <h3>Titulaire d'une licence Bac +3 en informatique obtenu à l’UPMC et souhaitant reprendre mes études 
+			pour un Bac+5 en informatique, je me permets de m’adresser à vous afin d’intégrer votre école.</h3>
+            <h3>Je possède une solide expérience sur différents langages de programmation tels que le langage Java, JEE, SQL, NoSQL (Google Datastore), 
+			C et une première expérience en Web grâce à mon parcours universitaire en informatique.
+			J'ai travaillé sur divers projets, notamment la création d'un site internet mettant en relation patient et médecin, ainsi que son application Android. 
+			Le back-end du site est en Java JEE et celui-ci est hébergé sur le Cloud de Google à l’aide de Google App Engine.
+			J’ai fait une année d’alternance dans l’entreprise Pierre et Vacances Center Parcs en tant que développeur Java 
+			où j’ai pu travailler sur des projets de grande envergure, actuellement utilisé, afin d’y ajouter des modules complémentaires. 
+			J’ai mis en place de nombreux tests unitaire sur différents projets. J’ai également participé à la création d’un projet de A à Z 
+			utilisant des technologies JEE qui m’étaient encore inconnues, que j’ai dû apprendre au fur et à mesure ce qui m’a permis de développer une grande autonomie. 
+			Durant ce projet, nous utilisions la méthode SCRUM, avec des stand-up meeting tous les jours. Nous avions un logiciel qui nous permettait de voir nos tâches 
+			et de les mettre à jour en temps réel. Ce projet a été finalisé et j’ai vraiment pris plaisir à travailler dessus.
+			Le travail et la rigueur sont deux de mes atouts ce qui me permet de m'intégrer facilement à un groupe et de notamment répondre aux exigences des projets. 
+			Le fait que nous ayons été confrontés à plusieurs changements du cahier des charges au cours du projet m'a permis de développer une grande flexibilité.
+			</h3>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">Java</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
+                  aria-valuetransitiongoal="70">70%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">C#</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
+                  aria-valuetransitiongoal="50">50%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <p class="lead">JavaScript</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
+                  aria-valuetransitiongoal="40">40%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <p class="lead">PHP</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
+                  aria-valuetransitiongoal="20">20%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+              <p class="lead">SQL</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
+                  aria-valuetransitiongoal="70">70%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms">
+              <p class="lead">UML</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
+                  aria-valuetransitiongoal="60">60%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms">
+              <p class="lead">HTML CSS</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
+                  aria-valuetransitiongoal="80">80%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#about-us-->
+
+
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Framework/Library</h2>
+            <p>Voici quelques examples de framework/library que je maitrise sur les différents langages que je cite</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fab fa-java"></i>
+            </div>
+            <div class="service-info">
+              <h3>Java</h3>
+              <p>Spring, Spring MVC, Spring Data, Spring Security, Hibernate, JPA, JSP, JSF, Primeface, JUnit, Mockito,
+                WildFly,
+                Maven</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <i class="fab fa-cuttlefish"></i>
+              <i class="fas fa-hashtag"></i>
+            </div>
+            <div class="service-info">
+              <h3>C#</h3>
+              <p>ASP.NET MVC, ASP.NET Core</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <div class="service-info">
+              <h3>JavaScript</h3>
+              <p>Node.js, Angular, TypeScript, jQuery, Ajax</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="fab fa-php"></i>
+            </div>
+            <div class="service-info">
+              <h3>PHP</h3>
+              <p>Mes débuts</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="service-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="service-info">
+              <h3>Base de données</h3>
+              <p>MySQL, SQL Server, MongoDB</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="service-icon">
+              <i class="fa fa-gift"></i>
+            </div>
+            <div class="service-info">
+              <h3>Bonus</h3>
+              <p>Bootstrap 3, Docker, PKI, Material Design, Jenkins, SonarQube, SCRUM, KanbanFlow</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#services-->
+
+
+
+  <section id="features" class="parallax">
+    <div class="container">
+      <div class="row count">
+        <div class="col-sm-4 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <i class="fas fa-laptop-code"></i>
+          <h3 class="timer">3</h3>
+          <p>Annnées d'expérience</p>
+        </div>
+        <div class="col-sm-4 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <i class="fab fa-black-tie"></i>
+          <h3 class="timer">3</h3>
+          <p>Expériences professionnels dans des entreprises</p>
+        </div>
+        <div class="col-sm-4 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+          <i class="fas fa-project-diagram"></i>
+          <h3 class="timer">10</h3>
+          <p>Travaux sur différents projets</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#features-->
+
+
+
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms"
+          data-wow-delay="300ms">
+          <h2>Projets</h2>
+          <p>Voici des projets sur lesquels j'ai travaillé</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2 col-md-offset-1">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/securite.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Sécurité numérique</h3>
+                    <p>Signature électronique, infrastructure à clé publique</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="securite.html"><i
+                          class="fa fa-info"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/medic.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Fast-Medic</h3>
+                    <p>JEE et Google App Engine</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="fast-medic.html"><i
+                          class="fa fa-info"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/vacance.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>JEE en vacances</h3>
+                    <p>JEE, Spring, Hibernate, PrimeFaces et test unitaire</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="pvcp.html"><i
+                          class="fa fa-info"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/gaz.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Gaz et stack MEAN</h3>
+                    <p>Docker, Node.js, Angular, MongoDB, Material Design</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="gaz.html"><i
+                          class="fa fa-info"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/transport.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>C# et Transport</h3>
+                    <p>ASP.NET MVC, Razor</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="transport.html"><i
+                          class="fa fa-info"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section>
+  <!--/#portfolio-->
+
+
+
+
+  <section id="contact">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms"
+            data-wow-delay="300ms">
+            <h2>Contactez-moi</h2>
+            <ul class="address">
+              <li><i class="fas fa-mobile-alt"></i> <span> Numéro:</span> 06 46 86 77 46 </li>
+              <li><i class="fas fa-at"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> test@test.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <form id="main-contact-form" name="contact-form" method="post" action="#">
+            <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Nom" required="required">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" placeholder="Sujet" required="required">
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Votre message" required="required"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn-submit">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#contact-->
+
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="social-icons">
+          <ul>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
