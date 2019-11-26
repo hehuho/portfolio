@@ -1,35 +1,236 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Eric DANGLET</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/v4-shims.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main2.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/learning.png">
+</head>
+<!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fas fa-cog fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+
+    <!--/#home-slider-->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		            <a class="navbar-brand" href="index.html">
+            <h1 style="color : white">Eric DANGLET</h1>
+          </a>  
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="index.html"> <i class="fas fa-home fa-lg"></i></a></li>
+            <li class="scroll"><a href="index.html#team">Portrait</a></li>
+            <li class="scroll"><a href="index.html#about-us">Skills & Moi</a></li>
+            <li class="scroll"><a href="index.html#services">Compétences</a></li>
+            <li class="scroll"><a href="index.html#portfolio">Projet</a></li>
+			<li class="scroll"><a href="index.html#timeline">Timeline</a></li>
+            <li class="scroll"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
+
+
+
+
+
+
 <div id="single-portfolio">
 	<div id="portfolio-details" class="container">
 		<a class="close-folio-item" href="#">
 			<i class="fa fa-times"></i>
 		</a>
-		<img class="img-responsive" src="images/portfolio/transport.png" alt="">
+		<img class="img-responsive heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/portfolio/gesurba.png" alt="">
 		<div class="row">
 			<div class="col-sm-9">
 				<div class="project-info">
-					<h3>Interface de gestion d'import et d'export</h3>
-					<p>Au cours de mon alternance au sein de la société Iorga j'ai été amené à travailler sur l’application "SquareNET". Cette
-						application a été développé pour la société BOLLORE qui est un groupe français international essentiellement de transport,
-						de logistique, et de communication. Cette aplication est une interface qui va permettre de voir les differents les
-						livraisons, receptions, articles pour les différents clients. On aura également la possiblité de voir le planning des
-						livraisons et des receptions. L'application permet de faire du CRUD sur les differents models citez précédemment et
-						de faire du trie et de la pagination</p>
+					<h2>Outil de simulation de scénario pour l'urbanisme</h2>
+					
+					
+					<h3>Présentation</h3>
+					<p>Au cours de mon alternance au sein de la société Iorga j'ai été amené à travailler sur l’application "GES-urba". Cette
+						application a été développé pour le ministère de l'écologie du développement durable et de l'énergie.
+						L’aménagement du territoire, et notamment les décisions de construction en renouvellement ou en extension, de localisation des zones d’habitat et d’activité, 
+						la forme urbaine vont avoir un impact important et à long terme sur la consommation d’énergie d’un territoire et ses émissions de GES. 
+						Ces choix auront un impact sur la mobilité en jouant sur le nombre et la distance des déplacements quotidiens, 
+						la possibilité de développer des transports en commun et de favoriser les modes actifs, 
+						de développer des réseaux de chaleur ainsi que de réduire les linéaires de réseaux à mettre en place en lien avec le développement du bâti.
+						L’incitation au développement des EnR, à la réhabilitation du bâti, à la mise en place de normes ambitieuses sur la construction neuve 
+						, seront également des éléments à intégrer dans le projet de territoire. L'outil GES-Urba a l'ambition d’évaluer l’impact des options 
+						d’aménagements envisagées, des scénarios construits lors de l'élaboration du PADD  en matière de consommation d’énergie et d'émissions de GES, 
+						Cet outil doit permettre d’illustrer comment les orientations des documents d’urbanisme influent 
+						sur la consommation d’énergie d’un territoire et sur ses émissions de gaz à effet de serre. Voici les spécifications du projet</p>
 						<ul>
-							<li>Projet développer en C# avec ASP.NET</li>
-							<li>Utilisation de ASP.NET MVC et de Razor</li>
-							<li>Projet découper en 2 sous projets avec comme structure du MVVM </li>
+							<li>Application générer avec JHipster</li>
+							<li>Application découper en 2 parties avec une partie back Java et une front avec Angular</li>
+							<li>Partie back on utilise Java avec des frameworks comme Spring, SpringBoot, SpringData, SpringSecurity, SpringOauth2, KeyCloak, Hibernate, </li>
+							<li>Partie front on utilise Angular avec des frameworks comme BootStrap, RxJS , Swagger</li>
+							<li>Base de données en PostGreSQL avec utilisation de liquibase pour le versionning</li>
+							<li>Utilisation de Docker pour </li>
+							<li>Utilisation de GitLab pour le versioning</li>
 						</ul>
+					
+					
+					
+					<h3>Contexte</h3>
+					<p>L’article L. 110 du Code de l’urbanisme demande aux collectivités publiques d’harmoniser leurs prévisions et leurs décisions d’utilisation 
+					de l’espace afin notamment de réduire les émissions de GES, de réduire les consommations d’énergie, d’économiser les ressources fossiles.
+					En outre, il mentionne que les actions des collectivités publiques en matière d’urbanisme contribuent à la lutte contre le changement climatique 
+					et à l’adaptation à ce changement. Ces objectifs sont confortés par l’article L.121.1 du Code de l’urbanisme indiquant que les SCoT, 
+					les PLU et les cartes communales […] déterminent les conditions permettant d’assurer dans le respect des objectifs de développement durable […] 
+					la réduction des émissions de gaz à effet de serre, la maîtrise de l’énergie et la production énergétique à partir de sources renouvelables.
+					</p>
+						
+						
+					
+					<h3>Etapes</h3>
+					<ul>
+						<li> Application générer avec JHipster utilisant le JDL qui est un fichier de configuration de projet </li>
+						<li> Développement en mode Agile avec des réunions quotidiennes pour expliquer notre avancement</li>
+						<li> Développement des écrans avec Angular</li>
+						<li> Mise en place des différens components correspondant au differents écrans </li>
+						<li> Mise en place des routing correspondant au différents components</li>
+						<li> Mise en place des controles pour les différents champs avec ReactivForm</li>
+						<li> Mise en place des différents services pour envoyer des requêtes HTTP au back en Angular utilisant RxJS </li>
+						<li> Mise en place des classes "Resource" qui sont les controllers en Java</li>
+						<li> Mise en place des Services et de leurs implémentations en Java</li>
+						<li> Création des requêtes JPQL pour les besoins de l'application</li>
+						<li> Gestion des différents calculs et de leurs répercussions</li>
+						<li> Mise en place des résultats</li>
+						<li> Mise en place des graphes pour les résultats</li>
+						
+					</ul>	
+					
+					
+					
+					<h3>Acteurs</h3>
+					<p>
+					Les acteurs pour ce projet sont un chef de projet, un architecte et développeur expérimenté, un autre développeur expérimenté, un développeur et moi. Le chef de projet 
+					faisait le pont entre le client et nous en recueillant les besoins, nous remontant les différents tickets et faisant le point régulièrement avec l'équipe de développement et 
+					les clients. L'architecte a eu l'initiative de créer le projet en utilisant un générateur de projet c'est-à-dire JHipster et qui à développer la sécurité avec Oauth2 et configurer le Docker. L'autre 
+					développeur expérimenté s'est occupé de la BDD et des calculs. Nous autre développeur, on s'est occupé des écrans et de la chaine d'appel du front jusqu'au back avec les différents 
+					process au besoin suivant les appels.avec création de classes Java pour les resources, services, dto, requêtes JPQL et des components en front.
+					</p>	
+					
+					
+										
+					<h3>Résultats</h3>
+					<p>
+					Les résultats pour ce projet sont plutôt bon malgré l'énorme retard qu'on a eu car l'estimation en amont du projet a été mal faite. Malheureseement je ne suis pas aller jusqu'au bout du projet 
+					car vers la fin du projet on m'a changé de projet. Le client était satisfait de ce qu'on avait fait jusque-là. Le projet faisait ce qu'il devait faire c'est-à-dire créer des scénarios et les comparer. 
+					Au début on était un peu parti dans tous les sens pour la création des écrans et nous n'utilisions pas ReactivForm, mais après recadrage par les développeurs expérimentés on s'est mis d'accord sur 
+					la marche à suivre pour coder les écrans selon certaines règles. 
+					
+					</p>
+
+					<h3>Lendemain</h3>
+					<p>Le projet est actuellement utilisé chez eux et je pense qu'il lui reste de beau jour encore devant lui car avec la documentation des spécifications conséquentes qu'ils nous on fournit pour faire de l'application et 
+					le temps que ça a pris pour le faire, il ne devrait pas en changer avant un certain temps. Comme les technologies employé sont récente alors je pense qu'il faudra un certain temps avant de penser à faire des évolutions.
+					</p>
+
+
+					<h3>Mon regard</h3>
+					<p>
+					Ce projet est pour moi le projet le plus intéressant depuis que je travaille à Iorga. Il a toutes les composantes que je voulais c'est-à-dire Java avec des frameworks d'actualité et récent comme JHipster, Springboot et Angular 
+					en front que je connaissais déjà. Comme je voulais faire du Java ce projet était parfait. J'ai beaucoup appris sur ce projet que ce soit en Java ou en Angular. J'ai vu de loin aussi comment marcher JHipster, LiquiBase. J'ai pu m'améliorer 
+					en Java en voyant l'architecture de ce projet et comment mieux gérer les données en transactions. J'ai également pu m'améliorer en SQL et en JPQL en écrivant les requêtes dont on avait besoin. En front aussi j'ai pu mieux comprendre comment 
+					fonctionnnent les ReactivForms, la bibliothèque RxJS avec les Observables et mieux comprendre Angular en général. Ce projet m'a beaucoup apporté et je pense que je me pencherai plus la question de JHipster pour mieux comprendre tout ce qu'il est 
+					possible de faire avec.
+					</p>
+
+
+
 				</div>
 			</div>
 			<div class="col-sm-3">
 				<div class="project-details">
 					<h3>Details du projet</h3>
 					<p>
-						<span>Client: </span>Bolloré</p>
+						<span>Client: </span>Ministère de l'écologie du développement durable et de l'énergie</p>
 					<p>
-						<span>Tag:</span> C#, ASP.NET MVC, Razor, MVVVM </p>
+						<span>Tag:</span> Java/JEE, JHipster, Docker, Angular, SpringBoot </p>
+					<p>
+						<span>Compétence humaine :</span> <a class="bold" href="attentif.html"> Attentif</a></p>
+						
+					<p>
+						<span>Compétence technique :
+						
+						</span>
+
+						<ul>
+							<li><a class="bold" href="java.html"> Java</a></li>
+							<li><a class="bold" href="sql.html"> SQL</a></li>
+							<li><a class="bold" href="javascript.html"> JavaScript/TypeScript</a></li>
+						</ul>
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="social-icons">
+          <ul>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main2.js"></script>
+  
+  		<script>
+            $(function(){
+                $("#includedContent").load("timeline.html");
+            });
+        </script>
+
+</body>
+
+</html>

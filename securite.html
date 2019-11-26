@@ -1,29 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Eric DANGLET</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/v4-shims.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main2.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/learning.png">
+</head>
+<!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fas fa-cog fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+
+    <!--/#home-slider-->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		            <a class="navbar-brand" href="index.html">
+            <h1 style="color : white">Eric DANGLET</h1>
+          </a>  
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="index.html"> <i class="fas fa-home fa-lg"></i></a></li>
+            <li class="scroll"><a href="index.html#team">Portrait</a></li>
+            <li class="scroll"><a href="index.html#about-us">Skills & Moi</a></li>
+            <li class="scroll"><a href="index.html#services">Compétences</a></li>
+            <li class="scroll"><a href="index.html#portfolio">Projet</a></li>
+			<li class="scroll"><a href="index.html#timeline">Timeline</a></li>
+            <li class="scroll"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
+
+
+
 <div id="single-portfolio">
 	<div id="portfolio-details" class="container">
 		<a class="close-folio-item" href="#">
 			<i class="fa fa-times"></i>
 		</a>
-		<img class="img-responsive" src="images/portfolio/pki.png" alt="">
+		<img class="img-responsive heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/portfolio/pki.png" alt="">
 		<div class="row">
 			<div class="col-sm-9">
 				<div class="project-info">
-					<h3>Biibliothèque d'envoi de document pour signature électronique</h3>
+					<h2>Bibliothèque d'envoi de document pour signature électronique</h2>
+					
+					<h3>Présentation</h3>
 					<p> Durant ma 2e année de licence à l’UPMC et dans le cadre de la formation ATIC j’ai effectué un stage dans l’entreprise
 						OpenTrust. J’ai été en charge de la création d’une bibliothèque en Java qui permet d’envoyer des documents à signer
 						vers la plateforme d’OpenTrust qui effectue la signature électronique et qui renvoie la réponse. Nous avons établi
 						un plan de projet avec mon maître de stage que j’ai donc suivi. Ce projet s’inscrit dans le cadre de la lutte contre
 						la contrefaçon.</p>
+						
+					<h3>Contexte</h3>
+					
+					
+					<h3>Etapes</h3>
 					<ul>
 						<li> Création de classes permettant la création du message XML qui est la requête que j’envoie vers la plateforme.</li>
 						<li> Création de classes permettant d’établir une connexion HTTPS.</li>
 						<li> Fusion des 2 pour pouvoir remplir les objectifs du projet.</li>
 						<li> Plan de test et détermination de tous les cas d’erreur possible que j’ai donc testés. </li>
 					</ul>
-					<p> Travail en collaboration avec le manager de l’équipe innovation qui m’a fait découvrir plus en détail le monde de la
+					
+					<h3>Acteurs</h3>
+					<p> Je travaillais sous la direction de mon maître de stage qui était chef de projet. J'ai également travaillé en collaboration 
+						avec le manager de l’équipe innovation qui m’a fait découvrir plus en détail le monde de la
 						PKI. Réalisation avec son aide, dans le cadre de la lutte contre la contrefaçon d'un programme. Ce programme calcule
 						le hash d’un document qu’on envoie à signer vers la plateforme OpenTrust et qui nous renvoie la réponse, dont la signature
-						qu'on vérifiera ensuite l’authenticité. utilisation de la bibliothèque BouncyCastle qui permet de faire de la cryptographie.
+						qu'on vérifiera ensuite l’authenticité. utilisation de la bibliothèque BouncyCastle qui permet de faire de la cryptographie. J'ai 
+						aussi travaillé avec d'autres développeurs de chez eux qui mon donné quelque coup de pouce par ci par la qui m'ont vraiment bien aidé.
 					</p>
+					
+					<h3>Résultats</h3>
+					<p>
+						Les résultats de ce projet étaitent ceux escomptés, c'est-à-dire un projet qui été parfaitement fonctionnel avec toutes les composantes demandés. Avec 
+						même en bonus le travail en collaboration avec le manager de l'équipe innovation car à la base c'était hors périmètre de mon stage mais comme 
+						j'avais fini ce que j'avais à faire alors il m'a proposé cela et bien sûr ça se refusait pas. Le travail qu'on a effectué ensemble a 
+						abouti et ce fut une riche collaboration pour moi.
+					</p>
+					
+					<h3>Lendemain</h3>
+					<p>
+						Le projet été un projet spécialement conçu pour moi qui était stagiaire et débutant du coup ce n'était pas un vrai projet destiné à être utilisé. 
+						Par contre le projet s'inspirer d'un vrai projet qui était fonctionnel du coup j'ai en quelque sorte fait un projet qui éte tout à fait utilisable en 
+						production.
+					</p>
+					
+					
+					<h3>Mon regard</h3>
+					<p>	J'ai beaucoup appris durant mon séjour chez eux. Tout d'abord l'univers de la sécurité dont je ne connaissais rien du tout et maintenant je connais 
+						les PKI et tout ce qui gravite autour. J'en ai également beaucoup plus appris sur les frameworks Java comme Maven que je connaissais pas ou encore JUnit.
+						Cette expérience fut très enrichissante pour moi car c'était ma 1ere expérience en entreprise. Cela m'a ouvert les yeux sur le monde du travail et m'a 
+						vraiment donné envie de continuer dans cette voie. Expérience très positive.
+					</p>
+					
 				</div>
 			</div>
 			<div class="col-sm-3">
@@ -33,8 +133,49 @@
 						<span>Client: </span>OpenTrust</p>
 					<p>
 						<span>Tag:</span> Java, PKI, XML, HTTPS</p>
+					<p>
+						<span>Compétence humaine :</span> <a class="bold" href="curiosite.html"> Curiosité</a></p>
+						
+					<p>
+						<span>Compétence technique :</span> <a class="bold" href="java.html"> Java</a></p>
 				</div>
-			</div>
+			</div><a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
 		</div>
 	</div>
 </div>
+
+
+
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="social-icons">
+          <ul>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main2.js"></script>
+  
+  		<script>
+            $(function(){
+                $("#includedContent").load("timeline.html");
+            });
+        </script>
+
+</body>
+
+</html>

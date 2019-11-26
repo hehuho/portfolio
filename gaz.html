@@ -1,13 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Eric DANGLET</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/v4-shims.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main2.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/learning.png">
+</head>
+<!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fas fa-cog fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+
+    <!--/#home-slider-->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		            <a class="navbar-brand" href="index.html">
+            <h1 style="color : white">Eric DANGLET</h1>
+          </a>  
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="index.html"> <i class="fas fa-home fa-lg"></i></a></li>
+            <li class="scroll"><a href="index.html#team">Portrait</a></li>
+            <li class="scroll"><a href="index.html#about-us">Skills & Moi</a></li>
+            <li class="scroll"><a href="index.html#services">Compétences</a></li>
+            <li class="scroll"><a href="index.html#portfolio">Projet</a></li>
+			<li class="scroll"><a href="index.html#timeline">Timeline</a></li>
+            <li class="scroll"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
+
+
+
+
 <div id="single-portfolio">
 	<div id="portfolio-details" class="container">
 		<a class="close-folio-item" href="#">
 			<i class="fa fa-times"></i>
 		</a>
-		<img class="img-responsive" src="images/portfolio/gaz_simu.png" alt="">
+		<img class="img-responsive heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/portfolio/gaz_simu.png" alt="">
 		<div class="row">
 			<div class="col-sm-9">
 				<div class="project-info">
-					<h3>Simulation de facture de gaz et souscription</h3>
+					<h2>Simulation de facture de gaz et souscription</h2>
+					
+					<h3>Présentation</h3>
 					<p>Au cours de mon alternance au sein de la société Iorga j'ai été amené à développer l’application "Simugaz". Cette application
 						a été développé pour la société ALTERNA qui est le plus grand fournisseur d’électricité et de gaz en France. Cette
 						aplication est un simulateur de gaz qui permet de donner les prix du gaz d’Alterna et les comparer avec les prix de
@@ -19,6 +87,92 @@
 							<li>Client en Angular 5 et utilisaiton de Material Design pour le front</li>
 							<li>Utilisation de GitLab pour le versioning</li>
 						</ul>
+						
+						
+					<h3>Contexte</h3>
+					
+					<p>En 2017, Alterna a souhaité développer sa pénétration du marché résidentiel en lançant
+					principalement de nouveaux outils web : renouvellement du site internet et mise en œuvre
+					d’un outil de simulation / souscription de ses offres électricité pour permettre la réalisation
+					de différentes campagnes web : achats de mots clés (Google adwords), mais aussi différents
+					tests de campagnes en ligne.
+					 Afin d’accélérer le développement de ses ventes alors que les offres gaz Alterna sont
+					particulièrement bien placées sur le marché, l’entreprise souhaite mettre en place sans
+					tarder un outil comparable pour la simulation et la souscription de ses offres gaz à
+					destination des particuliers et des professionnels.
+					 Particularité de la situation : les clients électricité sont hébergés dans une base de facturation
+					nommée GIE qui sera également la base d’accueil des clients gaz. Mais à ce jour, les clients
+					gaz sont toujours hébergés dans notre ancien outil de facturation développé il y a quelques
+					années par la société Pracdis. Il n’est donc pas possible de partir du modèle existant du
+					simulateur et outil de souscription électricité à proprement parler, mais il conviendra de s’en
+					rapprocher le plus possible en termes de fonctionnalités et de compatibilité ultérieure avec
+					les outils en place.
+					 En effet, la bascule des clients gaz est envisagée dans le nouvel outil de facturation dans le
+					courant de l’année 2019 et il sera alors souhaitable de pouvoir rapidement adapter l’outil
+					CDC Gaz Alterna
+					développé dans les prochaines semaines pour en permettre sa mise en œuvre dans le
+					nouveau système lors de la bascule.
+					C’est pourquoi, le prestataire retenu devra tenir compte des spécifications techniques et de
+					langage qui seront fournies par la Direction des Techniques d’Information et de
+					Communication de SOREGIES, auteur de l’outil électricité, en complément de ce cahier des
+					charges.</p>	
+						
+					
+					
+					<h3>Etapes</h3>
+					<ul>
+						<li> Lecture d'un tutoriel concernant Angular </li>
+						<li> Mise en place du projet avec utilisation d'un "boilerplate" de bonne pratique pour Node.js par l'architecte</li>
+						<li> Développement en mode Agile avec des petits sprints de quelques jours</li>
+						<li> Mise en place d'une couche de validation avec l'API Swagger</li>
+						<li> Mise en place des différents écrans avec l'utilisation de Material design</li>
+						<li> Mise en place de routing et de différentes classes pour les besoins du projet</li>
+						<li> Mise en place des controls pour les différents champs</li>
+						<li> Mise en place des services pour les requêtes HTTP vers l'API</li>
+						<li> Mise en place des components Node.js pour les requêtes HTTP avec les tests</li>
+						<li> Mise en place d'un stepper</li>
+						<li> Réglages de tickets</li>
+						<li> Mise en place de l'envoi de documents </li>
+						<li> Mise en place d'envoi de mails </li>
+						<li> Mise en place de Google analytics </li>
+					</ul>	
+						
+						
+						
+					<h3>Acteurs</h3>
+					<p>Les acteurs pour ce projet sont un chef de projet, un architecte et développeurs expérimenté qui à construit les bases de l'application, une développeuse débutante et moi. 
+					Il y a également eu d'autres développeurs qui se sont joint au projet lorsqu'on en avait besoin puis on quitté le projet lorsqu'on avait besoin d'eux sur autre chose. 
+					On faisait souvent de petite réunion entre les membres de l'équipe car on travaillait en mode Agile mais pas avec tous les codes du mode Agile. Comme c'était des technologies 
+					que je connaissais pas c'est-à-dire Node.js, Angular, Docker, je demandais de l'aide au développeur expérimenté si besoin.
+					</p>	
+					
+					
+					
+					<h3>Résultats</h3>
+					<p>
+						Les résultats pour ce projet sont ce qu'on nous avait demandé. Les clients étaient satisfaits de ce qu'on avait fait. C'est d'autant plus satisfaisant car je ne connaissais rien 
+						au début que ce soit Angular, Node.js ou Docker. Nous avons donc 2 parties dans l'application avec le back en Node.js et le front en Angular. Le front va faire des requêtes au back 
+						qui va renvoyer les données dont on a besoin et le tout avec un affichage classe en utilisant Material design. 
+					
+					</p>
+
+
+					<h3>Lendemain</h3>
+					<p>Le projet est encore utilisé aujourd'hui et le site est toujours accessible. Le projet est récent donc je pense pas qu'ils changeront de si tot. Les clients étaient tellement 
+					satisfaits qu'ils nous ont confiés d'autre projet mais je n'ai pas participé à c'est nouveau projet. Une équipe a été mise en place chez nous pour ce projet et on peut voir qu'ils 
+					travaillent d'arrache pied donc ils sont entre de bonnes mains.
+					</p>
+
+
+					<h3>Mon regard</h3>
+					<p>	Ce projet fut une expérience très enrichissante car j'ai fait que apprendre sur ce projet, que ce soit Angular, Node.js, Docker et d'autres library. J'ai pu voir qu'on peut 
+					faire du back en JavaScript avec Node.js, comment Angular s'utilise en front et comprendre comment ça marche et aussi Material design que je ne connaissais pas du tout. Et enfin 
+					Docker qui permet de créer un container pour les applications qui est du coup plus lgéger qu'une VM. J'ai enfin pu travailler sur un projet de A à Z chez Iorga et un projet de grande 
+					envergure. On a également travailler en monde Agile SCRUM même si ont respecté pas tous les codes c'était quand même plaisant de travailler en Agile. Les personnes avec qui j'ai travaillé 
+					étaient compétent et sympa et ça motive d'autant plus. Expérience très positive.
+							
+					</p>
+					
 				</div>
 			</div>
 			<div class="col-sm-3">
@@ -28,8 +182,52 @@
 						<span>Client: </span>Alterna</p>
 					<p>
 						<span>Tag:</span> Docker, Node.js, Angular 5, MongoDB, Material Design, Express, GitLab<p>
+						
+					<p>
+						<span>Compétence technique :
+						
+						</span>
+
+				
+						<a class="bold" href="javascript.html"> JavaScript/TypeScript</a>
+			
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="social-icons">
+          <ul>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main2.js"></script>
+  
+  		<script>
+            $(function(){
+                $("#includedContent").load("timeline.html");
+            });
+        </script>
+
+</body>
+
+</html>

@@ -1,27 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Eric DANGLET</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/v4-shims.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main2.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/learning.png">
+</head>
+<!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fas fa-cog fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+
+    <!--/#home-slider-->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		            <a class="navbar-brand" href="index.html">
+            <h1 style="color : white">Eric DANGLET</h1>
+          </a>  
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="index.html"> <i class="fas fa-home fa-lg"></i></a></li>
+            <li class="scroll"><a href="index.html#team">Portrait</a></li>
+            <li class="scroll"><a href="index.html#about-us">Skills & Moi</a></li>
+            <li class="scroll"><a href="index.html#services">Compétences</a></li>
+            <li class="scroll"><a href="index.html#portfolio">Projet</a></li>
+			<li class="scroll"><a href="index.html#timeline">Timeline</a></li>
+            <li class="scroll"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
+
+
+
 <div id="single-portfolio">
 	<div id="portfolio-details" class="container">
-		<a class="close-folio-item" href="#">
-			<i class="fa fa-times"></i>
-		</a>
-		<img class="img-responsive" src="images/portfolio/fast-medic.png" alt="">
+		<!-- <a class="close-folio-item" href="#"> -->
+			<!-- <i class="fa fa-times"></i> -->
+		<!-- </a> -->
+		<img class="img-responsive heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/portfolio/fast-medic.png" alt="">
 		<div class="row">
 			<div class="col-sm-9">
 				<div class="project-info">
-					<h3>Fast-Medic, la prise de rendez-vous en ligne</h3>
+					<h2>Fast-Medic, la prise de rendez-vous en ligne</h2>
+					
+					
+					<h3>Présentation</h3>
 					<p>L’objectif principal de ce projet est la réalisation d’un site internet qui soit exploitable aussi bien sur PC que sur
 						une plateforme mobile. L’idée du site est de mettre en relation des patients et des médecins pour qu’il puisse prendre
 						rendez-vous et tout cela par le biais du site internet. L’utilisateur aura la possibilité de télécharger une application
-						Android qui aura les mêmes spécificités que le site internet.</p>
-					<p>Avec l’avancé des nouvelles technologies et surtout le développement de l’informatique, l’habituelle prise de rendez-vous
-						par téléphone est quelque peu dépasser. Maintenant on peut faire pratiquement tout ce qu’on veut sur internet. L’idée
-						de ce projet est donc de faire un site pour la mise en relation patient, médecin pour une prise de rendez-vous facile
-						et rapide. Pour cela les patient auront à disposition une recherche de médecin par position géographique et pourront
-						prendre rendez-vous directement à partir du site. Ce projet est une extension des cours en java qu’on a dans le parcours
-						DANT de l’UPMC. Il y aura bien sur un travail sur des nouvelles technologies telles que le Cloud, Google App Engine,
-						Cloud Datastore, Android et JEE.</p>
+						Android qui aura les mêmes spécificités que le site internet.
 					<ul>
-						<li> Site internet hébergé sur la plateforme de Cloud de Google et cela grâce à Google App Engine. Utilisation de diverse
-							technologie de Google App Engine comme le DataStore, JavaMail, Cron.</li>
+						<li> Site internet hébergé sur la plateforme de Cloud de Google et cela grâce à Google App Engine. Utilisation de diverses
+							technologies de Google App Engine comme le DataStore, JavaMail, Cron.</li>
 						<li> Base de données NoSQL avec l’utilisation du Cloud Datastore qui contiendra donc les données des patients, médecins,
 							et des rendez-vous.</li>
 						<li> Utilisation de JEE pour la mise en place du site avec des JSP pour les vues et des Servlet pour les controllers.
@@ -29,6 +90,71 @@
 						<li> Application Android fait avec la dernière version du SDK Android et qui aura les mêmes spécificités que le site.
 						</li>
 					</ul>
+					</p>
+						
+					
+					<h3>Contexte</h3>
+					<p>Avec l’avancé des nouvelles technologies et surtout le développement de l’informatique, l’habituelle prise de rendez-vous
+						par téléphone est quelque peu dépassée. Maintenant on peut faire pratiquement tout ce qu’on veut sur internet. L’idée
+						de ce projet est donc de faire un site pour la mise en relation patient, médecin pour une prise de rendez-vous facile
+						et rapide. Pour cela les patient auront à disposition une recherche de médecin par position géographique et pourront
+						prendre rendez-vous directement à partir du site. Ce projet est une extension des cours en java qu’on a dans le parcours
+						DANT de l’UPMC. Il y aura bien sur un travail sur des nouvelles technologies telles que le Cloud, Google App Engine,
+						Cloud Datastore, Android et JEE. Ce projet s'inscrit dans le cadre de ma 3e année de licence en informatique comme projet 
+						final et individuel à présenter.</p>
+						
+						
+						
+					<h3>Etapes</h3>
+					<ul>
+						<li> Lecture de tutoriels car je ne connaissais rien sur JEE ni sur Google App Engine</li>
+						<li> Création de la base de donnée avec DataStore avec utilisation de la bibliothèque Objectify</li>
+						<li> Création de Servlet et de JSP pour les différentes parties du site avec utilisation de JSTL et de EL</li>
+						<li> Utilisation de template graphique</li>
+						<li> Mise en place de session Java pour stocker les données de l'utilisateur d'une page à l'autre</li>
+						<li> Mise en place de filtre pour restreindre l'acces aux pages réservées aux membres </li>
+						<li> Utilisation de Crons pour la suppression automatique des rendez-vous dépasser</li>
+						<li> Mise en place d'envoi de mail pour l'inscription et la gestion des rendez-vous</li>
+						<li> Création d'une application mobile en mode Webview</li>
+					</ul>	
+					
+					
+					<h3>Acteurs</h3>
+					<p> Pour ce projet on avait pour instruction de travailler seul. Du coup on n'avait personne sur qui se reposer si on avait des problèmes techniques. 
+					D'un côté ça nous force à chercher nous-mêmes et à développer notre autonomie ce qui est une bonne chose. Par contre on nous a assigné à chacun un 
+					référent à qui on devait faire un rapport régulier concernant notre projet. Le plus grand acteurs dans ce projet c'était internet et les heures à lires 
+					les tutoriaux concernant les différentes technologies.
+					</p>
+
+
+
+					<h3>Résultats</h3>
+					<p>
+						Les résultats de ce projet étaient ceux escomptés et même au-delà. Je n'avais pas vraiment au départ ce que je voulais faire en tête du coup 
+						au fur et à mesure de la lecture des tutoriaux j'ai commencé à me dire "Ok je vais ci et ça et mettre ça en oeuvre..." et le resultat final et vraiment 
+						bien. Un site parfaitement fonctionnel avec un design classe et responsive. Un espace membre avec une base de donnée de médecin bien-sur fictif mais avec 
+						qui on peut prendre rendez-vous et ensuite les rendez-vous dépasser se supprime automatiquement. L'application mobile fonctionner parfaitement sur mon 
+						téléphone grâce au APK que j'ai créer puis installer sur mon android.
+					</p>
+
+					<h3>Lendemain</h3>
+					<p>
+						Le projet été seulement un projet pour l'école, et je pense pas qu'avec les technologies que j'utilisais qui étaient des technologies plutôt vieillissantes 
+						j'aurais pu le vendre. Peut-être en recommençant le projet mais cette fois avec des technologies d'actualité cela aurait peut-être pu se vendre. 
+						Mais le concept dont le site Fast-Medic est pourvu est bien sûr un concept qui existe déjà et surtout des sites qui existe deja faisant exactement la même 
+						chose et surement en mieux du coup il faudrait vraiment un plus pour que cela se vende.
+					</p>
+					
+					
+					<h3>Mon regard</h3>
+					<p>	Ce site fut ma 1ere expérience en JEE et à la base j'y connaissais rien et j'ai donc tout appris tout seul sur internet à base de tutoriaux à n'en plus finir. 
+					Et je dois dire que j'étais vraiment fier à l'époque quand j'avais enfin fini le site et l'application mobile qui allait avec. Cela m'a donné beaucoup plus confiance 
+					en moi et en mes capacités. J'ai enfin pu voir ce que JEE offrez, enfin une petite partie comme les Servlet, JSP, JSTL, EL, les sessions, les requêtes HTTP, les mails et encore 
+					plein de choses avec Google App Engine avec le DataStore la base NoSQL et les Crons pour l'automatisation de tâche. Ce fut vraiment une très belle expérience bien que 
+					très difficile au début on ne sait pas trop où on va allait mais au final c'était parfait !				
+					</p>
+					
+					
 				</div>
 			</div>
 			<div class="col-sm-3">
@@ -37,9 +163,49 @@
 					<p>
 						<span>Client: </span>Projet pour l'école</p>
 					<p>
-						<span>Tag:</span> Java JEE, Google App Engine, DataStore, Android</p>
+						<span>Compétence technique :</span> Java JEE, Google App Engine, DataStore, Android</p>
+					<p>
+						<span>Compétence humaine :</span> <a class="bold" href="autonomie.html"> Autonomie</a></p>
+						<p>
+						<span>Compétence technique :</span> <a class="bold" href="java.html"> Java</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="social-icons">
+          <ul>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main2.js"></script>
+  
+  		<script>
+            $(function(){
+                $("#includedContent").load("timeline.html");
+            });
+        </script>
+
+</body>
+
+</html>
+
